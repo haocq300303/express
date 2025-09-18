@@ -156,6 +156,6 @@ app.get("/", (_req, res) => {
   res.json({ message: "Welcome to RESTful API - Node.js", at: nowISO() });
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
